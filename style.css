@@ -1,0 +1,176 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+html{
+  height: 100%;
+}
+body{
+  font-family: "Public Sans", sans-serif;
+  font-size: 1.2rem;
+  min-height: 100%;
+  text-align: center;
+}
+.header{
+  display:flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  position: fixed;
+}
+.cabecera{
+  height: 48px;
+  width: 100%;
+  background-image: url(imgs/portada2.0.jpg);
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;	
+}
+
+.nav{
+    align-items: center;
+    height: 35px;
+    background-color: #66cccc;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+	  gap: 40px;
+}
+.nav ul{
+  display: flex;
+  justify-content:space-around;
+  width: 1345px;
+}
+.boton {
+  height: 35px;
+	font-family: "Happy Monkey", cursive;
+	font-family: "Roboto", sans-serif;
+	font-family: "Sigmar", cursive;
+  align-items: center;
+	display: flex;
+	text-decoration: none;
+	padding: 10px 18px;
+	border-radius: 0 0 18px 18px;
+	color: white;
+	font-size: 10px;
+}
+
+.contenido{
+  padding-top: 83px;
+  display: flex;
+  flex-direction: row;
+  height: max-content;
+}
+.barlat{
+  padding-top: 83px;
+  width: 30%;
+  background-image: url(imgs/lados2.1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main{
+  background: rgb(255, 255, 255);
+  width: 70%;
+  height: 1065px;
+  padding-top: 83px;
+}
+.footer{
+  background-color: rgb(99, 96, 96);
+  height: 60px;
+  color:white;
+  padding-top: 27px;
+}
+@media (min-width: 600px) {
+  .cabecera{
+    height: 70px;
+    width: 100%;
+    background-image: url(imgs/portada2.0.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;	
+  }
+  .barlat {
+    padding-top: 130px;
+    width: 30%;
+    height: 1065px;
+    background-image: url(imgs/lados2.1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .boton {
+	  font-family: "Happy Monkey", cursive;
+	  font-family: "Roboto", sans-serif;
+	  font-family: "Sigmar", cursive;
+    align-items: center;
+	  display: flex;
+	  text-decoration: none;
+	  padding: 10px 35px;
+	  border-radius: 0 0 25px 25px;
+	  color: white;
+	  font-size: 15px;
+  }
+  .main{
+    padding-top: 130px;
+    background: white;
+    width: 70%;
+    height: 1065px;
+  }
+}
+  
+@media (min-width: 900px) {
+  .cabecera{
+      height: 130px;
+      background-image: url(imgs/portada2.0.jpg);
+      background-size:cover;
+      background-position: center;
+  }
+  .nav{
+      align-items: center;
+      height: 45px;
+      background-color: #66cccc;
+      display: flex;
+      list-style: none;
+      justify-content: center;
+	    gap: 40px;
+  }
+  .nav ul{
+      display: flex;
+      justify-content:space-around;
+      width: 1345px;
+  }
+
+  .contenido{
+    padding-top: 175px;
+
+  }
+  .barlat {
+      padding-top: 175px;
+      width: 30%;
+      background-image: url(imgs/lados2.1.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .boton {
+	    font-family: "Happy Monkey", cursive;
+	    font-family: "Roboto", sans-serif;
+	    font-family: "Sigmar", cursive;
+      align-items: center;
+	    display: flex;
+	    text-decoration: none;
+	    padding: 22.5px 40px;
+	    border-radius: 0 0 25px 25px;
+	    color: white;
+	    font-size: 15px;
+  }
+  .main{
+    background: white;
+    width: 70%;
+    padding-top: 175px;
+  }
+}
